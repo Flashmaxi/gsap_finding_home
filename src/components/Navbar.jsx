@@ -10,6 +10,7 @@ const Navbar = () => {
         start: "bottom top",
       },
     });
+
     navTween.fromTo(
       "nav",
       { backgroundColor: "transparent" },
