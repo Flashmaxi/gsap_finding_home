@@ -1,4 +1,4 @@
-import { openingHours, socials } from "../../constants/index.js";
+import { socials } from "../../constants/index.js";
 import { useGSAP } from "@gsap/react";
 import { SplitText } from "gsap/all";
 import gsap from "gsap";
@@ -25,19 +25,11 @@ const Contact = () => {
         opacity: 0,
         yPercent: 100,
         stagger: 0.02,
-      })
-
-      .to("#f-left-leaf", {
-        y: "-50",
-        duration: 1,
-        ease: "power1.inOut",
       });
   });
 
   return (
     <footer id="contact">
-      <img src="/images/partnerimg.png" alt="leaf-left" id="f-left-leaf" />
-
       <div className="content">
         <h2>BECOME A PARTNER</h2>
 
@@ -63,8 +55,6 @@ const Contact = () => {
         </div>
 
         <div>
-          <h3>Socials</h3>
-
           <div className="flex-center gap-5">
             {socials.map((social) => (
               <a

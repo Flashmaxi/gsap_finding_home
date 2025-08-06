@@ -1,7 +1,6 @@
 import gsap from "gsap";
 import { useMediaQuery } from "react-responsive";
 import { useGSAP } from "@gsap/react";
-import { featureLists, goodLists } from "../../constants/index.js";
 
 const Nyc = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -55,6 +54,13 @@ const Nyc = () => {
               from Somalia to financial freedom with Bitcoin proves our core
               narrative.
             </p>
+            <a
+              href="https://indeehub.studio/film/findinghome-season1-1"
+              className="block p-3  bg-gray-100 text-black w-2xs mx-auto rounded-full font-bold mt-4 text-center"
+              target="_blank"
+            >
+              Watch on Indeehub
+            </a>
           </div>
         </div>
       </div>

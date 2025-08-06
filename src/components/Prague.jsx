@@ -1,7 +1,6 @@
 import gsap from "gsap";
 import { useMediaQuery } from "react-responsive";
 import { useGSAP } from "@gsap/react";
-import { featureLists, goodLists } from "../../constants/index.js";
 
 const Prague = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
@@ -53,7 +52,7 @@ const Prague = () => {
           </div>
         </div>
         <div className="masked-container">
-          <h2 className="will-fade-prague">Episode 2 PRAGUE</h2>
+          <h2 className="will-fade-prague">Episode PRAGUE</h2>
           <div id="masked-content-prague" className="opacity-0">
             <h3>Episode 2: PRAGUE</h3>
             <p>
